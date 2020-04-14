@@ -1,19 +1,20 @@
 <template>
   <div id="app">
     <a-button type="primary">Antd-Button</a-button>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <button-counter></button-counter>
+    <Chart/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Chart from "./components/Chart.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Chart
   }
+  
 };
 </script>
 
