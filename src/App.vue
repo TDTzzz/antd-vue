@@ -1,20 +1,21 @@
 <template>
   <div id="app">
-    <a-button type="primary">Antd-Button</a-button>
-    <button-counter></button-counter>
     <Chart/>
+    <Table/>
+    <Form/>
   </div>
 </template>
 
 <script>
 import Chart from "./components/Chart.vue";
+import Table from "./components/Table";
 
 export default {
   name: "App",
   components: {
-    Chart
+    Chart,
+    Table
   }
-  
 };
 </script>
 
